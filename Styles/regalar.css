@@ -1,0 +1,49 @@
+.conteiner {
+  display: flex;
+  background-color: rgb(216, 191, 172);
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 600px;
+}
+.titulo {
+  text-align: center;
+  font-size: medium;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: rgb(222, 211, 206);
+  font-weight: bold;
+}
+
+.imagen {
+  color: white;
+  font-family: "PT Sans Narrow", sans-serif;
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+}
+
+.footer_conteiner {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  padding: 3%;
+  justify-content: flex-end;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .conteiner  {
+    flex-direction: column;
+    height: auto;
+
+  }
+  .imagen {
+    width: 100%;
+    height: auto;
+  }
+  .imagen img {
+    width: 93%;
+    height: auto;
+  }
+  
+
+}
