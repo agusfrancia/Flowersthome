@@ -31,10 +31,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  .conteiner  {
+  .conteiner {
     flex-direction: column;
     height: auto;
-
   }
   .imagen {
     width: 100%;
@@ -44,6 +43,20 @@
     width: 93%;
     height: auto;
   }
-  
+}
 
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(216, 191, 172);
 }
