@@ -1,6 +1,7 @@
 .flexbox__conteiner {
   display: flex;
   background-color: rgb(216, 191, 172);
+  color: white;
   padding: 3%;
   justify-content: space-around;
   flex-direction: row;

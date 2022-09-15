@@ -60,3 +60,33 @@ nav a {
   text-decoration: none;
   color: rgb(216, 191, 172);
 }
+
+.caja {  display: grid;
+ 
+  grid-auto-columns: 1fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "img1 img2"
+    "img3 img4";
+    background-color: rgb(216, 191, 172) ;
+    color: white;
+    font-family: "PT Sans Narrow", sans-serif;
+    
+}
+
+.img1 { grid-area: img1; }
+
+.img2 { grid-area: img2; }
+
+.img3 { grid-area: img3; }
+
+.img4 { grid-area: img4; }
+
+.img1 img, .img2 img, .img3 img, .img4 img{
+
+  width: 500px;
+  height: 500px;
+
+  
+}

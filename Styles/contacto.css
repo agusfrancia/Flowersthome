@@ -3,13 +3,30 @@
 .conteiner {
   display: flex;
   background-color: rgb(216, 191, 172);
+  color: white;
   justify-content: space-around;
   padding: 2%;
 }
 .hijo {
-  color: white;
+  color:white;
   font-size: medium;
   font-family: "PT Sans Narrow", sans-serif;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color:rgb(216, 191, 172);
 }
 
 .footer_conteiner {

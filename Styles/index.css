@@ -47,11 +47,12 @@ body {
   font-size: small;
   font-weight: bold;
   color: rgb(216, 191, 172);
+  background-color: white;
 }
 
 .hijito {
   width: 450px;
-  height: 350px;
+  height: 450px;
   color: white;
   font-family: "PT Sans Narrow", sans-serif;
   background-color: rgb(216, 191, 172);
@@ -83,9 +84,11 @@ nav a {
   color: white;
 }
 
-@media screen and (max-width: 768px) nav ul {
-  display: block;
-  text-align: center;
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: block;
+    text-align: center;
+  }
 }
 .flexbox__conteiner {
   flex-direction: column;
@@ -96,13 +99,10 @@ nav a {
   margin-bottom: 30px;
 }
 
-.conteiner{
-  margin: 5%;
-  display: grid;
-  grid-template-areas: "header"
-  "nav"
-  "main"
-  "footer";
-  
-  grid-template-rows: 230px 80px auto auto;
+.container-fluid {
+  background-color: rgb(216, 191, 172);
+  justify-content: flex-end;
+  ;
 }
+
+
